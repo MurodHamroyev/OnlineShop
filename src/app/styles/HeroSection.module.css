@@ -1,0 +1,32 @@
+.heroSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background: #E1DFDA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e1dfdab2;
+    transition: .5s;
+    cursor: pointer;
+}
+.box:hover {
+    background-color: #F7F7F7;
+}
+.box2 {
+    width: 70px;
+    height: 25px;
+    text-align: center;
+}
+.productCate {
+    font-size: 11px;
+    font-weight: 500;
+}
+

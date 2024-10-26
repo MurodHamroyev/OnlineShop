@@ -2,3 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+.app {
+  font-family: Arial, sans-serif;
+}
+
+
+.btn {
+  border-radius: 5px;
+  background-color: white;
+  color: #3fb6b9;
+  border: 2px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #3fb6b9;
+  color: white;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
